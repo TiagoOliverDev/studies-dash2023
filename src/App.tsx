@@ -1,10 +1,11 @@
 import React from 'react';
-import GridLogin from './shared/components/GridLogin/GridLogin';
+import GridRegister from './shared/components/GridRegister/GridRegister';
+import Register from './pages/cadastro';
 
 function App() {
   return (
     <div className="App">
-      <GridLogin />
+      <Register/>
     </div>
   );
 }
