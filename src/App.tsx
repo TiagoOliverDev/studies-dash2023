@@ -1,9 +1,10 @@
 import React from 'react';
+import GridLogin from './shared/components/GridLogin/GridLogin';
 
 function App() {
   return (
     <div className="App">
-      Studies dash
+      <GridLogin />
     </div>
   );
 }
