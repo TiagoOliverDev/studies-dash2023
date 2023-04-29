@@ -1,12 +1,18 @@
 import React from 'react';
-import GridRegister from './shared/components/GridRegister/GridRegister';
-import Register from './pages/cadastro';
+import { BrowserRouter } from "react-router-dom";
+import { AppRoutes } from "./routes";
+import { AppThemeProvider } from "./shared/context";
+
 
 function App() {
   return (
     <div className="App">
-      <Register/>
-    </div>
+      <AppThemeProvider>
+        <BrowserRouter>
+          <AppRoutes />
+        </BrowserRouter>
+      </AppThemeProvider>
+    </div >
   );
 }
 
