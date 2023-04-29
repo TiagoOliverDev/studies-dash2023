@@ -1,10 +1,30 @@
 import * as React from "react";
 import GridRegister from "../../shared/components/GridRegister/GridRegister";
 
+
 export default function Index() {
   return (
-    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
-     <h2>login</h2>
+    <div style={{ height: "100vh", backgroundColor: "#0B0B0B" }}>
+      <div       
+       style={{
+          position: "absolute",
+          width: "700px",
+          height: "100%",
+          left: "0",
+          top: "50%",
+          transform: "translateY(-50%)",
+          overflow: 'hidden'
+        }}>
+
+        <img
+          src="/images/baner.svg"
+          alt="Imagem"
+          style={{
+            height: "100%",     
+            borderRadius: "40px 0 0 40px",
+          }}
+        />
+      </div>
     </div>
   );
 }
