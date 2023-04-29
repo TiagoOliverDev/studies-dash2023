@@ -1,11 +1,18 @@
 import React from 'react';
-import GridLogin from './shared/components/GridLogin/GridLogin';
+import { BrowserRouter } from "react-router-dom";
+import { AppRoutes } from "./routes";
+import { AppThemeProvider } from "./shared/context";
+
 
 function App() {
   return (
     <div className="App">
-      <GridLogin />
-    </div>
+      <AppThemeProvider>
+        <BrowserRouter>
+          <AppRoutes />
+        </BrowserRouter>
+      </AppThemeProvider>
+    </div >
   );
 }
 

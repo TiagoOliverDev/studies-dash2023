@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import { Cadastro } from "../pages/cadastro";
-import { Login } from "../pages/login";
+import  Cadastro  from "../pages/cadastro";
+import Login from "../pages/login";
+
 
 export const AppRoutes = () => {
 
