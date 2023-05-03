@@ -1,10 +1,7 @@
-import * as React from "react";
-import GridRegister from "../../shared/components/GridRegister/GridRegister";
+import Container from "./ContainerCadastro"
 
-export default function Index() {
-  return (
-    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
-      <GridRegister />
-    </div>
-  );
+export const Cadastro = () => {
+    return (
+        <Container />
+    )
 }
