@@ -8,8 +8,8 @@ export default function Index() {
   let path = "/images/baner.svg"
 
   return (
-    <div>
-      <Image path = {path}/>
+    <div >
+      {/* <Image path = {path}/> */}
       <Form />
     </div>
   );

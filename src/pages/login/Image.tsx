@@ -15,7 +15,7 @@ export default function Image(props: any) {
           transform: "translateY(-50%)",
           overflow: 'hidden'
         }}>
-
+          
         <img
           src={props.path}
           alt="Imagem"
