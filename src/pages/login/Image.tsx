@@ -4,11 +4,11 @@ import GridRegister from "../../shared/components/GridRegister/GridRegister";
 
 export default function Image(props: any) {
   return (
-    <div style={{ height: "100vh", backgroundColor: "#0B0B0B" }}>
+    <div style={{ height: "100vh" }}>
       <div       
        style={{
           position: "absolute",
-          width: "700px",
+          width: "800px",
           height: "100%",
           left: "0",
           top: "50%",
