@@ -34,7 +34,7 @@ export default function Form(props: any) {
   };
 
   return (
-    <div style={{display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", height: "75vh"}}>
+    <Box style={{display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", height: "75vh"}}>
         <Image path = {path}/>
         <div style={{display: "flex", justifyContent: "center"}}>
             <div>
@@ -58,7 +58,7 @@ export default function Form(props: any) {
                             "& input":  {color: "#FFFFFF"}, 
                             bgcolor: "#1F1F22",
                             width: "400px", 
-                            borderRadius: "10px"                               
+                            borderRadius: "17px"                               
                          }}
                         />
 
@@ -91,7 +91,7 @@ export default function Form(props: any) {
                             "& input":  {color: "#FFFFFF"}, 
                             bgcolor: "#1F1F22",
                             width: "400px", 
-                            borderRadius: "10px"                               
+                            borderRadius: "17px"                               
                         }}
                         
                     />                 
@@ -118,20 +118,20 @@ export default function Form(props: any) {
                     <Box sx={{width: "30%", height: "1px", bgcolor: "gray"}} />
                 </Box>      
                 <Box style={{marginTop: "28px", display:"flex", justifyContent:"center", alignItems:"center" }} >
-                    <Button style={{background: "#1F1F22", margin: "0 10px"}} >
+                    <Button style={{background: "#1F1F22", margin: "0 10px", borderRadius: 17, width: "400px", height: "40px"}} >
                         <GoogleIcon />
                     </Button>              
                 </Box>
                 <Box style={{marginTop: "28px", display:"flex", justifyContent:"center", alignItems:"center" }} >                  
-                    <Button style={{background: "#1F1F22", margin: "0 10px" }} >
+                    <Button style={{background: "#1F1F22", margin: "0 10px", borderRadius: 17, width: "190px", height: "40px" }} >
                         <GitHubIcon />
                     </Button>
-                    <Button style={{background: "#1F1F22", margin: "0 10px" }} >
+                    <Button style={{background: "#1F1F22", margin: "0 10px", borderRadius: 17, width: "190px", height: "40px" }} >
                         <LinkedInIcon />
                     </Button>
                 </Box>
             </div>
         </div>
-    </div>
+    </Box>
   );
 }
