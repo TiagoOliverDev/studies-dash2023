@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <AppThemeProvider>
         <BrowserRouter>
-          <AppRoutes />
+          <AppRoutes/>
         </BrowserRouter>
       </AppThemeProvider>
     </div >
